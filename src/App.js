@@ -1,12 +1,10 @@
 import React from "react";
 import Main from "./componets/index/Main";
-import BG from "./componets/index/BG";
-
 function App() {
   return (
     <>
+      {/* I added only Main File as principal Layout */}
       <Main />
-      <BG />
     </>
   );
 }
